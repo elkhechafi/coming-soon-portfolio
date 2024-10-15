@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Zakaria Elkhechafi</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+
+    <style>
+        #intro{
+            position: relative;
+        }
+        /* Style the video: 100% width and height to cover the entire window */
+        #myVideo {
+          position: absolute;
+          right: 0;
+          bottom: 0;
+          min-width: 100vw;
+          min-height: 100vh;
+          z-index: 1;
+        }
+    </style>
+</head>
+
+<body id="top" class="ss-preload theme-static">
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- intro
+    ================================================== -->
+    <section id="intro" class="s-intro">
+
+        <div class="s-intro__bg"></div>
+
+        <header class="s-intro__header"> 
+            <div class="s-intro__logo">
+                <a class="logo" href="index-static.html">
+                    <img src="./images/logo.svg" alt="" srcset="">
+                </a>
+            </div>
+        </header>  <!-- s-intro__header -->
+            <!-- The video -->
+            <video autoplay muted loop id="myVideo">
+                <source src="./images/marketing-Header-Bg.mp4" type="video/mp4">
+            </video>
+        <div class="row s-intro__content">
+
+
+            <div class="column">
+
+                <div class="text-pretitle">
+                    Hey! Bienvenue,
+                </div>
+
+                <h1 class="text-huge-title">
+                    Nous préparons <br>
+                    quelque chose d'excitant <br>
+                    & incroyable pour vous.
+                </h1>
+
+                <div class="s-intro__content-bottom">
+
+                    <div class="s-intro__content-bottom-block">
+                        <h5>Grande ouverture dans</h5>
+            
+                        <div class="counter">
+                            <div class="counter__time">
+                                <span class="ss-days">02</span>
+                                <span>D</span>
+                            </div>
+                            <div class="counter__time">
+                                <span class="ss-hours">00</span>
+                                <span>H</span>
+                            </div>
+                            <div class="counter__time minutes">
+                                <span class="ss-minutes">00</span>
+                                <span>M</span>
+                            </div>
+                            <div class="counter__time">
+                                <span class="ss-seconds">00</span>
+                                <span>S</span>
+                            </div>
+                        </div>  <!-- end counter -->
+
+                    </div> <!-- end s-intro-content__bottom-block -->
+
+                    <div class="s-intro__content-bottom-block">
+
+                        <h5>Suivez Nous</h5>
+
+                        <ul class="social">
+                            <li><a href="">FB</a></li>
+                            <li><a href="">TW</a></li>
+                            <li><a href="">IG</a></li>
+                            <li><a href="">DB</a></li>
+                            <li><a href="">BH</a></li>
+                        </ul>
+
+                    </div> <!-- end s-intro-content__bottom-block -->
+
+                </div> <!-- end s-intro-content__bottom -->
+
+            </div>
+        </div> <!-- s-intro__content -->
+
+        <div class="s-intro__notify">
+            <button type="button" class="btn--stroke btn--small ss-modal-trigger">
+                Prévenez-moi
+            </button>
+        </div> <!-- s-intro__notify -->
+
+        <div hidden class="s-intro__modal ss-modal">
+            <div class="ss-modal__inner">
+
+                <span class="ss-modal__close"></span>
+
+                <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="30" height="30"><path d="M.5 4.5l7 4 7-4m-13-3h12a1 1 0 011 1v10a1 1 0 01-1 1h-12a1 1 0 01-1-1v-10a1 1 0 011-1z" stroke="var(--color-2-dark)"></path></svg>
+                
+                <h4>Inscrivez-vous</h4>
+
+                <p class="ss-modal__text">
+                    Soyez le premier informé des dernières mises à jour et restez toujours a jours des nouveautees du monde du marketing technologies.
+                </p>
+
+                <form id="mc-form" class="mc-form">
+                    <input type="email" name="EMAIL" id="mce-EMAIL" class="u-fullwidth text-center" placeholder="Addresse Email" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
+                    <input type="submit" name="subscribe" value="Inscription" class="btn--small btn--primary u-fullwidth">
+                    <!-- <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_cdb7b577e41181934ed6a6a44_9a91cfe7b3" tabindex="-1" value=""></div> -->
+                    <div class="mc-status"></div>
+                </form>
+
+            </div> <!-- end ss-modal__inner -->
+        </div> <!-- end ss-modal -->
+
+        <div class="s-intro__scroll">
+            <a href="#hidden" class="smoothscroll">
+                découvrer plus
+            </a>
+        </div> <!-- s-intro__scroll -->
+
+    </section> <!-- end s-intro -->
+
+
+    <!-- hidden element
+    ================================================== -->
+    <div id="hidden" aria-hidden="true" style="opacity: 0;"></div>
+
+
+    <!-- details
+    ================================================== -->
+    <section id="details" class="s-details">
+
+        <div class="row">
+            <div class="column">
+
+                <h1 class="text-huge-title text-center">
+                    Hi, Je suis Zakaria Elkhechafi.
+                </h1>
+
+                <nav class="tab-nav">
+                    <ul class="tab-nav__list"> 
+                        <li class="active" data-id="tab-about">
+                            <a href="#0">
+                                <span>Chapitre I : </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab-services">
+                                <span>Chapitre II</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#tab-contact">
+                                <span>Contact</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav> <!-- end tab-nav -->
+
+                <div class="tab-content">
+
+                    <!-- 01 - tab about -->
+                    <div id="tab-about" class='tab-content__item'>
+
+                        <div class="row tab-content__item-header">
+                            <div class="column">
+                                <h2>Éléments constitutifs <br /> Éducation et expériences précoces</h2>
+                                <!-- <h2>Notre histoire.</h2> -->
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="column">
+                                <h2>Section I: Découvrir le pouvoir du marketing</h2>
+                                <p class="lead">
+                                    Mon parcours dans le marketing n’était pas planifié, c’était une découverte, presque comme la découverte d’un trésor caché. Tout a commencé quand j’ai remarqué comment un simple message pouvait changer les perceptions, influencer les décisions et façonner les marques. Cette prise de conscience a déclenché en moi une passion pour comprendre la psychologie derrière le marketing et les stratégies qui conduisent le comportement des consommateurs.
+                                </p>
+                                <h2>Section II: Le parcours académique</h2>
+                                <p>
+                                    Pour transformer cette passion en expertise, j’ai fait une maîtrise en marketing et gestion commerciale. Ici, j’ai été immergé dans la théorie et la pratique du marketing, de l’étude de marché à la psychologie des consommateurs en passant par la gestion de marque et le marketing numérique. Il ne s’agissait pas seulement d’apprendre des concepts; il s’agissait de les appliquer dans des scénarios concrets, de comprendre les nuances et de voir l’impact de stratégies bien conçues. Mon parcours académique était plus qu’une simple acquisition de connaissances; il s’agissait de bâtir une base solide. Cette fondation m’a permis d’aborder les défis du marketing avec créativité et rigueur analytique, en mélangeant art et science pour créer des récits de marque convaincants.
+                                </p>
+
+                                <div class="row">
+                                    <div class="column lg-6 tab-12">
+                                        <h4>Section II :<br /> Premières expériences,
+                                            Où l’apprentissage rencontre la réalité
+                                            </h4>
+                                        <p>
+                                            Mon parcours académique était plus qu’une simple acquisition de connaissances; il s’agissait de bâtir une base solide. Cette fondation m’a permis d’aborder les défis du marketing avec créativité et rigueur analytique, en mélangeant art et science pour créer des récits de marque convaincants. Après mes études, je me suis lancée dans le monde du marketing avec une faim profonde pour faire la différence. Mes premières expériences étaient un mélange de travail d’agence et de projets d’entreprise, chacun m’a enseigné des leçons précieuses. Que ce soit pour élaborer une campagne pour une petite entreprise ou pour travailler sur la stratégie de marque d’une société du classement Fortune 500, j’ai appris l’importance d’adapter les stratégies à différentes échelles et industries.                                        </p>
+                                    </div>
+                                    <div class="column lg-6 tab-12">
+                                        <h4>Section VI:<br /> Le point tournant,<br />
+                                            Adopter MarTech<br /><br />
+                                            </h4>
+                                        <p>
+                                            Mon approche du marketing a évolué avec le paysage numérique. J’ai compris que pour rester en tête, je devais adopter la technologie. Cela m’a amené à me plonger dans la MarTech, où le marketing rencontre la technologie. Des systèmes de CRM aux outils d’automatisation du marketing, j’ai commencé à intégrer la technologie dans mes stratégies, ce qui a permis de personnaliser les campagnes de marketing et de les rendre plus efficaces. Ce changement a marqué un tournant dans ma carrière. Il ne s’agissait plus seulement de marketing, mais aussi d’utiliser la technologie pour créer des stratégies plus intelligentes et plus efficaces. Ce mélange d’expertise marketing et de connaissances technologiques est devenu ma proposition de valeur unique, préparant le terrain pour le prochain chapitre de mon parcours.
+                                        </p>
+                                        <!-- <a href="#" class="btn btn--stroke u-fullwidth">contactez Nous</a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div> <!-- end 01 - tab about -->
+
+                    <!-- 02 - tab services -->
+                    <div id="tab-services" class='tab-content__item'>
+
+                        <div class="row tab-content__item-header">
+                            <div class="column">
+                                <h2>Naviguer dans le paysage numérique <br />
+                                    Maîtriser l’art de la communication numérique</h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="column">
+                                <p class="lead">
+                                    Mon parcours dans le domaine du marketing a été façonné par une passion pour comprendre comment les gens interagissent avec les marques et les plateformes numériques en constante évolution qui nous connectent. Des fondements traditionnels du marketing aux complexités des écosystèmes numériques d’aujourd’hui, j’ai perfectionné ma capacité à élaborer des stratégies qui atteignent efficacement les publics et génèrent des résultats.<br />
+                                    Mon approche a évolué en même temps que le paysage du marketing. Les tactiques de marketing traditionnelles ne suffisaient plus dans un monde où les consommateurs sont plus informés et connectés que jamais. J’ai réalisé que les données ne se résumaient pas seulement aux chiffres, mais qu’elles étaient la clé pour comprendre le comportement, prévoir les tendances et optimiser les stratégies.<br />
+                                    Grâce à des années d’expérience pratique, j’ai commencé à intégrer les connaissances des consommateurs dans chaque étape du parcours marketing. De la recherche initiale à l’exécution de la campagne, je me suis assuré que chaque décision était appuyée par des données réelles et exploitables. Cela a non seulement amélioré la mobilisation, mais a aussi donné des résultats mesurables.                                 </p>
+                            </div>
+                        </div>
+
+                        <div class="row services-list block-lg-one-half block-md-one-half block-tab-whole">
+
+                            <div class="column services-list__item">
+                                <div class="services-list__item-content">
+                                    <h4 class="item-title">Gestion de campagnes multicanales<br /> <br /></h4>
+                                    <p>
+                                        La gestion de campagnes multicanales consiste à coordonner les efforts marketing sur plusieurs plateformes pour maximiser l'impact. Cela inclut les réseaux sociaux, les emails, la publicité payante, et d'autres canaux digitaux. Un bon suivi et une optimisation en temps réel permettent d'améliorer la performance et l'engagement.
+                                    </p>
+                                </div>
+                            </div>
+                
+                            <div class="column services-list__item">
+                                <div class="services-list__item-content">
+                                    <h4 class="item-title">Automatisation marketing</h4>
+                                    <p>
+                                        L'automatisation marketing permet de personnaliser et de rationaliser les interactions avec les clients grâce à des outils comme HubSpot ou Marketo. Cela permet de segmenter l'audience et d'envoyer des communications ciblées et pertinentes. En automatisant les tâches répétitives, les équipes marketing peuvent se concentrer sur des initiatives à plus forte valeur ajoutée.                                    </p>
+                                </div>
+                            </div>
+                
+                            <div class="column services-list__item">
+                                <div class="services-list__item-content">
+                                    <h4 class="item-title">Analyse de données et reporting</h4>
+                                    <p>
+                                        Les outils d'analyse de données, comme Google Analytics ou Tableau, offrent une vision précise de la performance des campagnes. Ils permettent de comprendre le comportement des utilisateurs et d'optimiser les stratégies en fonction des données collectées. Le reporting régulier permet d'identifier les opportunités d'amélioration continue et de mesurer le retour sur investissement (ROI).                                </div>
+                            </div>
+                
+                            <div class="column services-list__item">
+                                <div class="services-list__item-content">
+                                    <h4 class="item-title">Optimisation du parcours client</h4>
+                                    <p>
+                                        L'optimisation du parcours client vise à améliorer chaque point de contact entre l'entreprise et le consommateur. Cela inclut l'analyse de l'expérience utilisateur (UX) et la personnalisation du contenu en fonction des comportements d'achat. Une optimisation efficace renforce l'engagement et augmente les taux de conversion.                                    </p>
+                                </div>
+                            </div>
+                
+                            <div class="column services-list__item">
+                                <div class="services-list__item-content">
+                                    <h4 class="item-title">Gestion des outils CRM</h4>
+                                    <p>
+                                        Les outils CRM (Customer Relationship Management) comme Salesforce ou HubSpot permettent de centraliser les interactions clients et d'automatiser la gestion des relations. Ils sont essentiels pour personnaliser les approches marketing et maintenir un suivi précis des prospects et des clients. L'intégration du CRM avec d'autres outils marketing garantit une approche cohérente et fluide.</p>
+                                </div>
+                            </div>
+
+                            <div class="column services-list__item">
+                                <div class="services-list__item-content">
+                                    <h4 class="item-title">SEO et Marketing de Contenu</h4>
+                                    <p>
+                                        Le SEO (Search Engine Optimization) vise à améliorer la visibilité des contenus en ligne via les moteurs de recherche. Couplé à une stratégie de marketing de contenu bien pensée, il permet d'attirer un trafic organique de qualité. Une bonne optimisation SEO contribue également à renforcer l'autorité de la marque en ligne.</p>
+                                </div>
+                            </div>
+                
+                        </div> <!-- end services-list -->
+                        
+                    </div> <!-- end 02 - tab services -->
+
+                    <!-- 03 - tab contact -->
+                    <div id="tab-contact" class="tab-content__item">
+
+                        <div class="row tab-content__item-header">
+                            <div class="column">
+                                <h2>Guide de marketing<br />
+                                    Créer des expériences web fonctionnelles et belles, des concepts aux conversions</h2>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="column">
+                                
+                                <p class="lead">
+                                    En tant que spécialiste du marketing et ingénieur logiciel principal, je combine la créativité avec l’expertise technique pour élaborer des stratégies convaincantes et créer des solutions novatrices. Je m’épanouis au carrefour du marketing et de la technologie, comblant les lacunes pour offrir des expériences qui connectent les gens avec des solutions numériques percutantes.
+                                </p>
+
+                                <div class="row">
+                                    <div class="column lg-6 tab-12">
+                                        <h4>Je suis a</h4>
+                
+                                        <p>
+                                        307 Ismailia 1<br>
+                                        Kenitra, Maroc<br>
+                                        14000 MA
+                                        </p>
+                
+                                    </div>
+                
+                                    <div class="column lg-6 tab-12">
+                                        <h4>Suivez Moi</h4>
+                
+                                        <ul class="link-list">
+                                            <li><a href="#0">LinkedIn</a></li>
+                                            <li><a href="#0">Instagram</a></li>
+                                        </ul>
+                
+                                    </div>
+                                </div>
+
+                                <p class="tab-content__item-bottom">
+                                    <a href="mailto:#0" class="contact-email">elkhechafizakaria@gmail.com</a>
+                                    <span class="contact-number"> 
+                                        <a href="tel:197-543-2345">+212 696 830201</a> 
+                                    </span>
+                                </p>
+
+                            </div>
+                        </div>
+                        
+                    </div> <!-- end 03 - tab contact -->
+
+                </div> <!-- end tab content -->
+
+                <!-- footer  -->
+                <footer>
+                    <div class="ss-copyright">
+                        <span>© Copyright Elkhechafi 2024</span> 
+                        <span>Realiser par <a href="#">InfinyBox</a></span>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+
+        <div class="ss-go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top">
+                <span>Back to Top</span>
+                <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" width="26" height="26"><path d="M7.5 1.5l.354-.354L7.5.793l-.354.353.354.354zm-.354.354l4 4 .708-.708-4-4-.708.708zm0-.708l-4 4 .708.708 4-4-.708-.708zM7 1.5V14h1V1.5H7z" fill="currentColor"></path></svg>
+             </a>
+        </div> <!-- end ss-go-top -->
+
+    </section> <!-- end s-details -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
